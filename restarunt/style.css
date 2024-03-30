@@ -1,0 +1,104 @@
+body,h2{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.landing {
+    background-image: url(pexels-valeria-boltneva-842571.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: beige;
+}
+header {
+    color: brown;
+    display: flex;
+   }
+header a{
+    color: #BBC3A4;
+   text-decoration: none;
+   flex-wrap: wrap;
+}
+#logo{
+    flex: 4;
+    font-size: 5em;
+    padding: 1rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+nav{
+    display: flex;
+    flex: auto;
+
+}
+nav a{
+    flex: 0.5rem;
+    font-size: 1.5em;
+    flex-wrap: wrap;
+}
+nav a:hover{
+   color: #C6A969; 
+}
+.main {
+    padding-top: 3cm;
+    padding: 2rem;
+}
+.t1 {
+    font-size: 2rem;
+    color: #97cba9;
+    padding: 0.5rem;
+    text-decoration: solid;
+}
+.callus {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+button {
+    background-color: #c5d86d;
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+ }
+ button:hover{
+    color: red;
+ }
+.menu {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    background:linear-gradient(to right,rgb(56, 54, 54),rgb(22, 21, 21));
+    color: white;
+    padding: 2em;
+    
+}
+#menuheading,#locheading {
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    background:linear-gradient(to right,rgb(56, 54, 54),rgb(22, 21, 21));
+    color: #d65a31;
+}
+.menu th{
+    color: #a2a8d3;
+    font-size: 1.5rem;
+}
+.menu table{
+    width: 100%;
+    padding: 0.5em;
+}
+.menu td{
+    padding: 0.5em;
+}
+.Location{
+    display: flex;
+    background:linear-gradient(to right,rgb(56, 54, 54),rgb(22, 21, 21)); ;
+    color: #fff2d6;
+}
+.Location div{
+   flex: 1;
+}
+.Location h2{
+    margin-bottom: 0.5em;
+    color: #a2a8d3;
+}
+.copyright {
+    text-align: center;
+}
